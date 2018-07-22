@@ -1,0 +1,13 @@
+D:\work\csv-parser\src\main\java\com\ahkamel\data\readers\LineReader.java
+D:\work\csv-parser\src\main\java\com\ahkamel\exceptions\ServerConnectException.java
+D:\work\csv-parser\src\main\java\com\ahkamel\controllers\CsvFileController.java
+D:\work\csv-parser\src\main\java\com\ahkamel\dtos\FileMetadata.java
+D:\work\csv-parser\src\main\java\com\ahkamel\exceptions\ReadFileException.java
+D:\work\csv-parser\src\main\java\com\ahkamel\util\Util.java
+D:\work\csv-parser\src\main\java\com\ahkamel\data\parsers\BatchConsumer.java
+D:\work\csv-parser\src\main\java\com\ahkamel\data\readers\CustomerLineReader.java
+D:\work\csv-parser\src\main\java\com\ahkamel\validators\BaseValidator.java
+D:\work\csv-parser\src\main\java\com\ahkamel\data\parsers\CsvParser.java
+D:\work\csv-parser\src\main\java\com\ahkamel\models\Customer.java
+D:\work\csv-parser\src\main\java\com\ahkamel\starter\Application.java
+D:\work\csv-parser\src\main\java\com\ahkamel\dtos\Result.java

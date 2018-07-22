@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: com.ahmed.data.parsers.FileUploadTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.159 sec <<< FAILURE! - in com.ahmed.data.parsers.FileUploadTest
+testUploadData(com.ahmed.data.parsers.FileUploadTest)  Time elapsed: 0.158 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:98)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:94)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:255)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at com.ahkamel.data.parsers.CsvParser.<init>(CsvParser.java:44)
+	at com.ahkamel.data.parsers.CsvParser.<init>(CsvParser.java:40)
+	at com.ahmed.data.parsers.FileUploadTest.testUploadData(FileUploadTest.java:35)
+
+testUploadDataAsync(com.ahmed.data.parsers.FileUploadTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:98)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:94)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:255)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at com.ahkamel.data.parsers.CsvParser.<init>(CsvParser.java:44)
+	at com.ahkamel.data.parsers.CsvParser.<init>(CsvParser.java:40)
+	at com.ahmed.data.parsers.FileUploadTest.testUploadDataAsync(FileUploadTest.java:51)
+

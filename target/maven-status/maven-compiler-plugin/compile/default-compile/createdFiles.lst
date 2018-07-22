@@ -1,0 +1,13 @@
+com\ahkamel\data\parsers\CsvParser.class
+com\ahkamel\dtos\Result.class
+com\ahkamel\data\readers\CustomerLineReader.class
+com\ahkamel\controllers\CsvFileController.class
+com\ahkamel\exceptions\ServerConnectException.class
+com\ahkamel\starter\Application.class
+com\ahkamel\util\Util.class
+com\ahkamel\data\parsers\BatchConsumer.class
+com\ahkamel\validators\BaseValidator.class
+com\ahkamel\data\readers\LineReader.class
+com\ahkamel\dtos\FileMetadata.class
+com\ahkamel\exceptions\ReadFileException.class
+com\ahkamel\models\Customer.class

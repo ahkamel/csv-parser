@@ -1,0 +1,6 @@
+com\ahmed\data\parsers\FileUploadTest.class
+com\ahmed\data\readers\CustomerLineReaderTest.class
+com\ahmed\util\UtilTest.class
+com\ahmed\data\parsers\CsvParserTest.class
+com\ahmed\validators\BaseValidatorTest$MockedError.class
+com\ahmed\validators\BaseValidatorTest.class

@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.ahmed.data.readers.CustomerLineReaderTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.015 sec <<< FAILURE! - in com.ahmed.data.readers.CustomerLineReaderTest
+testCreateCustomer(com.ahmed.data.readers.CustomerLineReaderTest)  Time elapsed: 0.014 sec  <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException: 5
+	at com.ahkamel.data.readers.CustomerLineReader.createObject(CustomerLineReader.java:28)
+	at com.ahkamel.data.readers.CustomerLineReader.createObject(CustomerLineReader.java:14)
+	at com.ahmed.data.readers.CustomerLineReaderTest.testCreateCustomer(CustomerLineReaderTest.java:18)
+
